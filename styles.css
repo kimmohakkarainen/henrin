@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 5px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.grid > * {
+  background-color: #fff;
+  color: black;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border-color: black;
+}
